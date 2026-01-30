@@ -1,1 +1,193 @@
-<h1>App Home</h1>
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="google-site-verification" content="k70JKRovK3ZxfPHcNrlLAJ-tcpH3ymFlqP19LYMB-KA" />
+  <meta name="description" content="SoberSync - Googleカレンダー連携で禁酒・減酒をサポート。日数カウンター、節約金額計算、チーム機能で継続をサポートします。">
+  <meta name="keywords" content="禁酒, 減酒, ソバーキュリアス, Googleカレンダー, 禁酒アプリ, 節酒, ノンアル">
+  <meta property="og:title" content="SoberSync - カレンダー連携型禁酒サポートアプリ">
+  <meta property="og:description" content="Googleカレンダーと連携して、禁酒・減酒を日常に統合。毎日の誓いをタスク化し、継続をサポートします。">
+  <meta property="og:type" content="website">
+  <title>SoberSync - カレンダー連携型禁酒サポートアプリ</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Hiragino Sans', sans-serif;
+      background: linear-gradient(135deg, #2C3E50 0%, #1ABC9C 100%);
+      min-height: 100vh;
+      color: #fff;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 60px 20px;
+      text-align: center;
+    }
+    .logo {
+      font-size: 64px;
+      margin-bottom: 20px;
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+      font-weight: 700;
+    }
+    .tagline {
+      font-size: 1.2rem;
+      opacity: 0.9;
+      margin-bottom: 40px;
+    }
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 24px;
+      margin: 40px 0;
+      text-align: left;
+    }
+    .feature {
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 16px;
+      padding: 24px;
+      backdrop-filter: blur(10px);
+    }
+    .feature-icon {
+      font-size: 32px;
+      margin-bottom: 12px;
+    }
+    .feature h3 {
+      font-size: 1.1rem;
+      margin-bottom: 8px;
+    }
+    .feature p {
+      font-size: 0.9rem;
+      opacity: 0.85;
+      line-height: 1.6;
+    }
+    .cta {
+      margin-top: 50px;
+    }
+    .cta-text {
+      font-size: 1rem;
+      opacity: 0.8;
+      margin-bottom: 20px;
+    }
+    .badges {
+      display: flex;
+      justify-content: center;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+    .badge {
+      display: inline-block;
+      background: #fff;
+      color: #2C3E50;
+      padding: 14px 28px;
+      border-radius: 12px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .badge:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    }
+    .stats {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      margin: 50px 0;
+      flex-wrap: wrap;
+    }
+    .stat {
+      text-align: center;
+    }
+    .stat-value {
+      font-size: 2rem;
+      font-weight: 700;
+    }
+    .stat-label {
+      font-size: 0.85rem;
+      opacity: 0.8;
+    }
+    footer {
+      margin-top: 60px;
+      padding-top: 30px;
+      border-top: 1px solid rgba(255,255,255,0.2);
+      font-size: 0.85rem;
+      opacity: 0.7;
+    }
+    footer a {
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="logo">🌱</div>
+    <h1>SoberSync</h1>
+    <p class="tagline">Googleカレンダー連携で、禁酒を「特別な努力」から「日常のタスク」へ</p>
+
+    <div class="stats">
+      <div class="stat">
+        <div class="stat-value">49%</div>
+        <div class="stat-label">飲酒量を減らしたい人の割合</div>
+      </div>
+      <div class="stat">
+        <div class="stat-value">7.4%</div>
+        <div class="stat-label">ノンアル市場の年成長率</div>
+      </div>
+    </div>
+
+    <div class="features">
+      <div class="feature">
+        <div class="feature-icon">📅</div>
+        <h3>Googleカレンダー連携</h3>
+        <p>毎日の「飲まない誓い」をGoogle Tasksに自動作成。カレンダーで時間帯をブロックし、飲酒リスクの高い時間を予定で埋めます。</p>
+      </div>
+      <div class="feature">
+        <div class="feature-icon">💰</div>
+        <h3>節約金額の可視化</h3>
+        <p>禁酒で浮いたお金をリアルタイム計算。日数カウンターと合わせて、努力の成果を数字で実感できます。</p>
+      </div>
+      <div class="feature">
+        <div class="feature-icon">👥</div>
+        <h3>匿名チーム機能</h3>
+        <p>5人の匿名チームで毎日チェックイン。仲間の存在が継続の力に。3日未活動で自動退出の緊張感も継続を後押し。</p>
+      </div>
+      <div class="feature">
+        <div class="feature-icon">❤️</div>
+        <h3>身体の回復を実感</h3>
+        <p>HealthKit/Health Connect連携で睡眠の質や心拍数の変化を追跡。禁酒による身体の回復を可視化します。</p>
+      </div>
+      <div class="feature">
+        <div class="feature-icon">🍹</div>
+        <h3>モクテルレシピ</h3>
+        <p>禁酒日数に応じてアンロックされるノンアルコールレシピ。飲む楽しみを諦めずに、新しい選択肢を発見。</p>
+      </div>
+      <div class="feature">
+        <div class="feature-icon">🌳</div>
+        <h3>成長する植物</h3>
+        <p>禁酒日数に応じて育つ植物のビジュアル。種から大樹へ、あなたの努力が目に見える形で成長します。</p>
+      </div>
+    </div>
+
+    <div class="cta">
+      <p class="cta-text">iOS / Android 対応</p>
+      <div class="badges">
+        <a href="#" class="badge">App Store（準備中）</a>
+        <a href="#" class="badge">Google Play（準備中）</a>
+      </div>
+    </div>
+
+    <footer>
+      <p>&copy; 2025 SoberSync. All rights reserved.</p>
+      <p style="margin-top: 8px;"><a href="#">プライバシーポリシー</a> | <a href="#">利用規約</a></p>
+    </footer>
+  </div>
+</body>
+</html>
