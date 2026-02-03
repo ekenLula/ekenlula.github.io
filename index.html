@@ -99,23 +99,26 @@
       transform: translateY(-2px);
       box-shadow: 0 8px 20px rgba(0,0,0,0.2);
     }
-    .stats {
-      display: flex;
-      justify-content: center;
-      gap: 40px;
-      margin: 50px 0;
-      flex-wrap: wrap;
+    .about {
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 16px;
+      padding: 32px;
+      margin-bottom: 40px;
+      backdrop-filter: blur(10px);
     }
-    .stat {
-      text-align: center;
-    }
-    .stat-value {
-      font-size: 2rem;
+    .about h2 {
+      font-size: 1.5rem;
+      margin-bottom: 16px;
       font-weight: 700;
     }
-    .stat-label {
-      font-size: 0.85rem;
-      opacity: 0.8;
+    .about p {
+      text-align: left;
+      line-height: 1.8;
+      font-size: 0.95rem;
+      opacity: 0.9;
+    }
+    .about strong {
+      color: #fff;
     }
     footer {
       margin-top: 60px;
@@ -134,6 +137,16 @@
     <img src="sobersync_icon.png" alt="SoberSync" class="logo">
     <h1>SoberSync</h1>
     <p class="tagline">Googleカレンダー連携で、禁酒を「特別な努力」から「日常のタスク」へ</p>
+
+    <div class="about">
+      <h2>SoberSyncについて</h2>
+      <p>
+        SoberSyncは、禁酒・断酒を習慣化するための支援アプリケーションです。<br>
+        このアプリは <strong>Google Tasks (ToDoリスト) および Google Calendar API</strong> を使用して、
+        毎日の禁酒目標を自動的にタスクとして登録し、カレンダー上で達成状況を可視化します。<br>
+        ユーザーはGoogleアカウントでログインすることで、自身のスケジュールと合わせて禁酒の継続を管理できるようになります。
+      </p>
+    </div>
 
     <div class="features">
       <div class="feature">
